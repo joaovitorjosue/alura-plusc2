@@ -20,15 +20,17 @@ body{
 }
 
 .principal{
-    background-image: url("imagem/Background.png");
+    background-image: url("imagem/Design\ sem\ nome.png");
     background-repeat: no-repeat;
     background-size: contain;
+    align-items: center;
+    text-align: center;
 }
 
 .container{
     height: 100vh;
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 30% 30%;
 }
 
 .container__botao{
@@ -38,6 +40,7 @@ body{
     color: var(--branco-principal);
     display: block;
     text-decoration: none;
+    margin-bottom: 1em;
 }
 
 .botao__secundario{
@@ -47,10 +50,20 @@ body{
 
 .container__aviso{
     font-size: 12px;
-    color: var(--cinza-secundario);
+    color: var(--branco-principal);
 }
 
 .container__titulo{
     font-size: 20px;
     font-weight: 700;
 }
+
+.container__imagem{
+    margin: 1em 0 2em 0;
+}
+
+.container__caixa{
+    margin: 0 6em;
+}
+    
+
